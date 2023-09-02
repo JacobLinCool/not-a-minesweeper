@@ -1,0 +1,12 @@
+{
+	"add": "新增",
+	"add-player": "新增玩家",
+	"user-name": "玩家名稱",
+	"start": "開始",
+	"prepare-description": "點擊方塊來放置或移除地雷。 完成後，單擊「下一步」按鈕。",
+	"next": "下一步",
+	"user-turn": "現在輪到玩家 {user} 的回合",
+	"game-over": "遊戲結束",
+	"user-died": "玩家 {name} 死掉了 {time} 次",
+	"cheat-mode": "作弊模式"
+}

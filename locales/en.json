@@ -1,0 +1,12 @@
+{
+	"add": "Add",
+	"add-player": "Add Player",
+	"user-name": "User Name",
+	"start": "Start",
+	"prepare-description": "You can click on the tiles to put or remove mines. When you are finished, click on the Next button.",
+	"next": "Next",
+	"user-turn": "It's {user}'s turn",
+	"game-over": "Game Over",
+	"user-died": "{name} died for {time} times",
+	"cheat-mode": "Cheat Mode"
+}
