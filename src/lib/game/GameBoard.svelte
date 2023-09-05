@@ -10,6 +10,7 @@
 	export let hide = false;
 	export let map: boolean[][];
 	export let user: User;
+	export let compact = false;
 
 	function move(x: number, y: number) {
 		if (Math.abs(x - user.x) + Math.abs(y - user.y) !== 1) {
@@ -38,7 +39,7 @@
 </script>
 
 <div>
-	<div class="grid grid-cols-6 gap-4">
+	<div class="grid grid-cols-6" class:gap-4={!compact} class:gap-2={compact}>
 		{#each map as row, y}
 			{#each row as cell, x}
 				<button
