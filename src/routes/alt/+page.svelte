@@ -23,7 +23,9 @@
 	const users2 = create().reverse() as [User, User];
 </script>
 
-<div class="flex h-full w-full flex-col items-center justify-center gap-4 p-2">
-	<GameAlt users={users1} />
-	<GameAlt users={users2} />
+<div class="h-full w-full overflow-auto p-4">
+	<div class="flex w-full flex-col items-center justify-center gap-4">
+		<GameAlt users={users1} />
+		<GameAlt users={users2} />
+	</div>
 </div>

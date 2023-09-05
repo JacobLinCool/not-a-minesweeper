@@ -3,7 +3,7 @@
 	import { passable } from "$lib/passable";
 	import { Stage, type User } from "$lib/types";
 	import { t } from "svelte-i18n";
-	import GameBoard from "./GameBoard.svelte";
+	import GameBoardAlt from "./GameBoardAlt.svelte";
 
 	export let users: [User, User];
 	export let cheat = false;
@@ -33,7 +33,7 @@
 
 {#if stage !== Stage.Finish}
 	{#key `${stage}`}
-		<GameBoard
+		<GameBoardAlt
 			bind:map
 			bind:user={users[1]}
 			moving={stage === Stage.Move}
